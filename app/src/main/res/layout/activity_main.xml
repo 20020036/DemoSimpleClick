@@ -6,28 +6,28 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
+            android:id="@+id/buttonDisplay"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Display" />
+            android:layout_weight="2"
+            android:text="@string/display" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
-            android:layout_width="wrap_content"
+            android:id="@+id/editTextInput"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="8"
             android:ems="10"
-            android:hint="Enter Something"
+            android:hint="@string/enter"
             android:inputType="textPersonName" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewDisplay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView" />
